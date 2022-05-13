@@ -13,7 +13,7 @@ Future<void> main() async {
   final cameras = await availableCameras();
 
   // Get a specific camera from the list of available cameras.
-  final firstCamera = cameras.first;
+  final firstCamera = cameras[1];
 
   runApp(
     MaterialApp(
